@@ -22,4 +22,15 @@
   
 7. **Added "System Refund" from co-working management system to customer in DFD Level 0**
    - **Reason**: The System Refund has been added because when the customer's reservation has canceled, the co-working management system has to refund the customer.
-     
+
+8. **Added "Expense report" and "Income report" from co-working management system to Manager/Administrator in DFD Level 0**
+   -**Reason**: The manager should be able to check the expense and income report from the co-working space.
+
+9. **Added "Authorization Request and Respond" from co-working management system to Banking API, True Money Wallet API, and Credit card API in all DFDs**
+    -**Reason**: It ensures secure, real-time payment validation and fraud prevention.
+
+10. **Deleted "Canceletion booking request" from Customer to co-working management system in DFD Level 0**
+    -**Reason**: It has been deleted because the customer doesn't have to request to cancel for their booking.
+
+11. **Added "Confirmation cancelation (include refund)" from co-working management system to Customer in DFD Level 0**
+    -**Reason**: It ensures customers receive clear confirmation and refund details for canceled bookings.   
